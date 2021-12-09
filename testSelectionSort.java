@@ -4,6 +4,7 @@ import org.junit.Test;
 public class testSelectionSort {
 @Test
 public void test() {
+<<<<<<< HEAD
 testPositive();
 testNegative();
 <<<<<<< HEAD
@@ -13,6 +14,12 @@ testDuplicates();
 //testMixed();
 //testDuplicates();
 >>>>>>> Test1
+=======
+//testPositive();
+//testNegative();
+testMixed();
+testDuplicates();
+>>>>>>> Test2
 }
     public testSelectionSort() {
     }
@@ -33,19 +40,26 @@ testDuplicates();
         Sortedarr[4] = 10;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Test2
        SelectionSort x= new SelectionSort();
        x.basicSelectionSort(arr);
         for(int i=0;i<5;i++) {
         assert(arr[i]==Sortedarr[i]);
         }
+<<<<<<< HEAD
 >>>>>>> Test1
+=======
+>>>>>>> Test2
         /** add tests to check for this unit test **/
     }
 
     public void testNegative(){
 
         /** Test data contains negative values only **/
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -58,6 +72,8 @@ testDuplicates();
 
         /** Test data contains duplicates **/
 =======
+=======
+>>>>>>> Test2
     	int[] arr = new int[5];
         arr[0] = -8;
         arr[1] = -9;
@@ -122,6 +138,9 @@ testDuplicates();
          for(int i=0;i<5;i++) {
          assert(arr[i]==Sortedarr[i]);
          }
+<<<<<<< HEAD
 >>>>>>> Test1
+=======
+>>>>>>> Test2
     }
 }
